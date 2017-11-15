@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.main{
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+    border: 1px solid black;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    /* border: 1px solid black; */
+}
+.black{
+    background: black;
+}
