@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+		<meta charset="UTF-8">
+        <title>拼图</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <script src="../jquery.min.js"></script>
+        <style>
+        
+.main{
+    width: 453px;
+    height: 456px;
+    margin: auto;
+    border: 1px solid black;
+    background: lightblue;
+    position: relative;
+}
+.outBox{
+    margin: 0px;
+    display: inline-block;
+    width: 150px;
+    border: 1px solid black;
+    height: 150px;
+    background: orange;
+    line-height: 150px;
+    text-align: center;
+    font-size: 150px;
+    position: absolute;
+}
+#box1{
+    top:0;
+    left: 0;
+}
+#box2{
+    top:0;
+    left: 150px;
+}
+#box3{
+    top:0;
+    left: 300px;
+}
+#box4{
+    top:150px;
+    left: 0;
+}
+#box5{
+    top:150px;
+    left: 150px;
+}
+#box6{
+    top:150px;
+    left: 300px;
+}
+#box7{
+    top:300px;
+    left: 0;
+}
+#box8{
+    top:300px;
+    left: 150px;
+}
+        </style>
+</head>
+<body>
+    <div class="game">
+        <div class="main">
+            <div class="outBox" id="box1" cid="1">1</div>
+            <div class="outBox" id="box2" cid="2">2</div>
+            <div class="outBox" id="box3" cid="3">3</div>
+            <div class="outBox" id="box4" cid="4">4</div>
+            <div class="outBox" id="box5" cid="5">5</div>
+            <div class="outBox" id="box6" cid="6">6</div>
+            <div class="outBox" id="box7" cid="7">7</div>
+            <div class="outBox" id="box8" cid="8">8</div>
+        </div>
+        <button id="reStart">重新开始游戏</button>
+    </div>
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
